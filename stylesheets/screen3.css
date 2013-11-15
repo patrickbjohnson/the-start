@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* -------------------------------------------------------------------------*/
+/* Layout */
+/* line 9, ../sass/screen3.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: anitaliased;
+}
+
+/* line 15, ../sass/screen3.scss */
+.container {
+  *zoom: 1;
+  max-width: 35em;
+  _width: 35em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(14.28571%, rgba(100, 100, 225, 0.25)), color-stop(14.28571%, rgba(0, 0, 0, 0)), color-stop(17.14286%, rgba(0, 0, 0, 0)), color-stop(17.14286%, rgba(100, 100, 225, 0.25)), color-stop(31.42857%, rgba(100, 100, 225, 0.25)), color-stop(31.42857%, rgba(0, 0, 0, 0)), color-stop(34.28571%, rgba(0, 0, 0, 0)), color-stop(34.28571%, rgba(100, 100, 225, 0.25)), color-stop(48.57143%, rgba(100, 100, 225, 0.25)), color-stop(48.57143%, rgba(0, 0, 0, 0)), color-stop(51.42857%, rgba(0, 0, 0, 0)), color-stop(51.42857%, rgba(100, 100, 225, 0.25)), color-stop(65.71429%, rgba(100, 100, 225, 0.25)), color-stop(65.71429%, rgba(0, 0, 0, 0)), color-stop(68.57143%, rgba(0, 0, 0, 0)), color-stop(68.57143%, rgba(100, 100, 225, 0.25)), color-stop(82.85714%, rgba(100, 100, 225, 0.25)), color-stop(82.85714%, rgba(0, 0, 0, 0)), color-stop(85.71429%, rgba(0, 0, 0, 0)), color-stop(85.71429%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 14.28571%, rgba(0, 0, 0, 0) 14.28571%, rgba(0, 0, 0, 0) 17.14286%, rgba(100, 100, 225, 0.25) 17.14286%, rgba(100, 100, 225, 0.25) 31.42857%, rgba(0, 0, 0, 0) 31.42857%, rgba(0, 0, 0, 0) 34.28571%, rgba(100, 100, 225, 0.25) 34.28571%, rgba(100, 100, 225, 0.25) 48.57143%, rgba(0, 0, 0, 0) 48.57143%, rgba(0, 0, 0, 0) 51.42857%, rgba(100, 100, 225, 0.25) 51.42857%, rgba(100, 100, 225, 0.25) 65.71429%, rgba(0, 0, 0, 0) 65.71429%, rgba(0, 0, 0, 0) 68.57143%, rgba(100, 100, 225, 0.25) 68.57143%, rgba(100, 100, 225, 0.25) 82.85714%, rgba(0, 0, 0, 0) 82.85714%, rgba(0, 0, 0, 0) 85.71429%, rgba(100, 100, 225, 0.25) 85.71429%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 14.28571%, rgba(0, 0, 0, 0) 14.28571%, rgba(0, 0, 0, 0) 17.14286%, rgba(100, 100, 225, 0.25) 17.14286%, rgba(100, 100, 225, 0.25) 31.42857%, rgba(0, 0, 0, 0) 31.42857%, rgba(0, 0, 0, 0) 34.28571%, rgba(100, 100, 225, 0.25) 34.28571%, rgba(100, 100, 225, 0.25) 48.57143%, rgba(0, 0, 0, 0) 48.57143%, rgba(0, 0, 0, 0) 51.42857%, rgba(100, 100, 225, 0.25) 51.42857%, rgba(100, 100, 225, 0.25) 65.71429%, rgba(0, 0, 0, 0) 65.71429%, rgba(0, 0, 0, 0) 68.57143%, rgba(100, 100, 225, 0.25) 68.57143%, rgba(100, 100, 225, 0.25) 82.85714%, rgba(0, 0, 0, 0) 82.85714%, rgba(0, 0, 0, 0) 85.71429%, rgba(100, 100, 225, 0.25) 85.71429%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 14.28571%, rgba(0, 0, 0, 0) 14.28571%, rgba(0, 0, 0, 0) 17.14286%, rgba(100, 100, 225, 0.25) 17.14286%, rgba(100, 100, 225, 0.25) 31.42857%, rgba(0, 0, 0, 0) 31.42857%, rgba(0, 0, 0, 0) 34.28571%, rgba(100, 100, 225, 0.25) 34.28571%, rgba(100, 100, 225, 0.25) 48.57143%, rgba(0, 0, 0, 0) 48.57143%, rgba(0, 0, 0, 0) 51.42857%, rgba(100, 100, 225, 0.25) 51.42857%, rgba(100, 100, 225, 0.25) 65.71429%, rgba(0, 0, 0, 0) 65.71429%, rgba(0, 0, 0, 0) 68.57143%, rgba(100, 100, 225, 0.25) 68.57143%, rgba(100, 100, 225, 0.25) 82.85714%, rgba(0, 0, 0, 0) 82.85714%, rgba(0, 0, 0, 0) 85.71429%, rgba(100, 100, 225, 0.25) 85.71429%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 14.28571%, rgba(0, 0, 0, 0) 14.28571%, rgba(0, 0, 0, 0) 17.14286%, rgba(100, 100, 225, 0.25) 17.14286%, rgba(100, 100, 225, 0.25) 31.42857%, rgba(0, 0, 0, 0) 31.42857%, rgba(0, 0, 0, 0) 34.28571%, rgba(100, 100, 225, 0.25) 34.28571%, rgba(100, 100, 225, 0.25) 48.57143%, rgba(0, 0, 0, 0) 48.57143%, rgba(0, 0, 0, 0) 51.42857%, rgba(100, 100, 225, 0.25) 51.42857%, rgba(100, 100, 225, 0.25) 65.71429%, rgba(0, 0, 0, 0) 65.71429%, rgba(0, 0, 0, 0) 68.57143%, rgba(100, 100, 225, 0.25) 68.57143%, rgba(100, 100, 225, 0.25) 82.85714%, rgba(0, 0, 0, 0) 82.85714%, rgba(0, 0, 0, 0) 85.71429%, rgba(100, 100, 225, 0.25) 85.71429%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
+}
+/* line 38, ../../../../.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 23, ../sass/screen3.scss */
+h1, h2, h3,
+h4, h5, h6, p {
+  font-family: "Source Sans Pro", "proxima-nova", Arial, sans-serif;
+  font-weight: 600;
+}
+
+/* line 28, ../sass/screen3.scss */
+p, .post-details, .footer {
+  font-family: "minion-pro", Georgia, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* line 35, ../sass/screen3.scss */
+a {
+  color: #555;
+}
+
+/* line 40, ../sass/screen3.scss */
+.header, .footer {
+  padding: 20px 35px;
+}
+
+/* line 42, ../sass/screen3.scss */
+.header {
+  padding: 100px;
+  text-align: center;
+  background: #F89614;
+  color: #fff;
+}
+/* line 47, ../sass/screen3.scss */
+.header a {
+  padding: 100px 0;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fff;
+}
+/* line 53, ../sass/screen3.scss */
+.header p {
+  font-size: 1rem;
+}
+
+/* line 57, ../sass/screen3.scss */
+.content {
+  *zoom: 1;
+  max-width: 35em;
+  _width: 35em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  margin: auto;
+}
+/* line 38, ../../../../.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 61, ../sass/screen3.scss */
+.content .b-posts {
+  list-style: none;
+  display: block;
+  margin: auto;
+}
+/* line 65, ../sass/screen3.scss */
+.content .b-posts li {
+  padding: 25px 0;
+  position: relative;
+}
+/* line 68, ../sass/screen3.scss */
+.content .b-posts li:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #e9e9e9;
+}
+/* line 76, ../sass/screen3.scss */
+.content .b-posts li .category {
+  color: #e9e9e9;
+}
+/* line 77, ../sass/screen3.scss */
+.content .b-posts li .category:hover {
+  color: #e1e1e1;
+}
+/* line 78, ../sass/screen3.scss */
+.content .b-posts li h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+/* line 79, ../sass/screen3.scss */
+.content .b-posts li h1 > a {
+  line-height: 1.02;
+}
+/* line 80, ../sass/screen3.scss */
+.content .b-posts li .post-details {
+  font-size: .850rem;
+  padding-left: 60px;
+}
+/* line 82, ../sass/screen3.scss */
+.content .b-posts li:last-child:after {
+  display: none;
+}
+
+/* line 86, ../sass/screen3.scss */
+.footer {
+  margin-top: 200px;
+}
+/* line 88, ../sass/screen3.scss */
+.footer small, .footer .footer-nav a {
+  color: #ccc;
+  font-size: .875rem;
+}
+/* line 89, ../sass/screen3.scss */
+.footer small {
+  float: left;
+}
+/* line 90, ../sass/screen3.scss */
+.footer .footer-nav {
+  list-style: none;
+  float: right;
+}
+/* line 93, ../sass/screen3.scss */
+.footer .footer-nav li {
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+}
+
+/* line 103, ../sass/screen3.scss */
+.post {
+  position: relative;
+  padding: 25px 0;
+}
+/* line 106, ../sass/screen3.scss */
+.post h1 {
+  font-size: 3.00rem;
+  line-height: 1;
+}
+/* line 107, ../sass/screen3.scss */
+.post .footnote {
+  margin: 10px 0 25px;
+  padding: 0;
+  font-size: 0.875em;
+  font-style: italic;
+}
+/* line 108, ../sass/screen3.scss */
+.post .post-image {
+  height: auto;
+  margin-bottom: 50px;
+}
+/* line 109, ../sass/screen3.scss */
+.post .post-image img {
+  min-width: 100%;
+}
+/* line 110, ../sass/screen3.scss */
+.post .post-image .post-caption {
+  font-size: .750rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: #98a2b1;
+}
+/* line 113, ../sass/screen3.scss */
+.post .article p {
+  font-size: 1.250em;
+  line-height: 1.875em;
+  margin-bottom: 1em;
+}
+/* line 114, ../sass/screen3.scss */
+.post .article:before {
+  content: '•';
+  display: inline-block;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  font-size: 30px;
+  line-height: 1;
+  color: #ddd;
+  background: #fff;
+  -webkit-border-radius: 50%;
+  z-index: 5;
+  text-align: center;
+}
+/* line 130, ../sass/screen3.scss */
+.post .article:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  width: 30%;
+  margin: auto;
+  background: #ddd;
+}

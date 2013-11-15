@@ -1,0 +1,96 @@
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "the-start";
+  src:url("../fonts/the-start.eot");
+  src:url("../fonts/the-start.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/the-start.ttf") format("truetype"),
+    url("../fonts/the-start.svg#the-start") format("svg"),
+    url("../fonts/the-start.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "the-start";
+  content: attr(class);
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+[class^="icon-"]:before,
+[class*="icon-"]:before {
+  font-family: "the-start";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: 1.555;
+  -webkit-font-smoothing: antialiased;
+  
+  font-size: 2.125em;
+  float: left;
+  margin-right: 25px;
+  overflow: hidden;
+}
+
+
+
+
+.icon-maker:before {
+  content: "t";
+}
+
+.icon-content:before {
+  content: "a";
+}
+
+.icon-flashlight:before {
+  content: "b";
+}
+
+.icon-creative:before {
+  content: "c";
+}
+
+.icon-educator:before {
+  content: "d";
+}
+
+.icon-megaphone:before {
+  content: "e";
+}
+
+.icon-strategy:before {
+  content: "f";
+}
+
+.icon-wildcard:before {
+  content: "g";
+}
+
+.icon-designer:before {
+  content: "h";
+}
+
+.icon-developer:before {
+  content: "i";
+}
+
+.icon-admin:before {
+  content: "j";
+}
